@@ -44,22 +44,6 @@
     slots:
     - Belt
 
-    - type: entity
-  name: A Light in Shining Darkness
-  parent: BaseWeaponBatterySmall
-  id: WeaponGodGun
-  description: The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/godgun.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-  - type: HitscanBatteryAmmoProvider
-    proto: RedMediumLaser
-    fireCost: 62.5
-  - type: Appearance
-
 - type: entity
   name: retro laser blaster
   parent: BaseWeaponBatterySmall
@@ -465,6 +449,34 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 40
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 750
+
+  - type: entity
+  name: A Light in Shining Darkness
+  parent: BaseWeaponBatterySmall
+  id: WeaponGodsGun
+  description: The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/godgun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/godgun.rsi
+  - type: Gun
+    fireRate: 1
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/godgun.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaser
+    fireCost: 100
   - type: MagazineVisuals
     magState: mag
     steps: 5
