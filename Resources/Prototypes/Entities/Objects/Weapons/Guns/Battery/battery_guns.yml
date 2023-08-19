@@ -44,6 +44,22 @@
     slots:
     - Belt
 
+    - type: entity
+  name: A Light in Shining Darkness
+  parent: BaseWeaponBatterySmall
+  id: WeaponGodGun
+  description: The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/godgun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: HitscanBatteryAmmoProvider
+    proto: RedMediumLaser
+    fireCost: 62.5
+  - type: Appearance
+
 - type: entity
   name: retro laser blaster
   parent: BaseWeaponBatterySmall
