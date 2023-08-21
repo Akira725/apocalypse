@@ -458,7 +458,7 @@
     price: 750
 
 - type: entity
-  name: A Light in Shining Darkness
+  name: A Light Shining in Darkness
   parent: BaseWeaponBatterySmall
   id: WeaponGodGun
   description: The path of the righteous man is beset on all sides by the inequities of the selfish and the tyranny of evil men.
