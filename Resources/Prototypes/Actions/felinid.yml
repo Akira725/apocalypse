@@ -1,0 +1,9 @@
+﻿- type: instantAction
+  id: LeapForward
+  name: action-name-leap
+  description: action-description-leap
+  icon:
+    sprite: Interface/Actions/actions_felinid.rsi
+    state: leap
+  serverEvent: !type:LeapForwardEvent
+  useDelay: 3

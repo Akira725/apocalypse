@@ -1,0 +1,79 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  name: Urist McPaws
+  parent: BaseMobOrganic
+  id: BaseMobFelinid
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Felinid
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 0.5
+        Bloodloss: 0.5
+  - type: Body
+    prototype: Felinid
+    requiredLegs: 2
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Mobs/Species/Human/parts.rsi
+    state: full
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        # Actually does 5 damage due to +25% damage bonus on all single target melee attacks
+        Slash: 3
+  - type: MovementSpeedModifier
+    BaseWalkSpeed : 2.5
+    BaseSprintSpeed : 5.0
+    weightlessAcceleration: 0.5
+    weightlessFriction: 1
+    weightlessModifier: 1
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+    reactions:
+    - reagents: [ Water, SpaceCleaner ]
+      methods: [ Touch ]
+      effects:
+      - !type:WashCreamPieReaction
+    - reagents: [ Water ]
+      methods: [ Touch ]
+      effects:
+      - !type:HealthChange
+        scaled: true
+        damage:
+          types:
+            Cold: 2
+      - !type:PopupMessage
+        type: Local
+        visualType: Large
+        messages: [ "felinid-dislikes-water-popup" ]
+        probability: 0.75
+  - type: Thirst
+  - type: Perishable
+  - type: Speech
+    speechSounds: Felinid
+  - type: Leap
+    duration: 0.5
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+
+- type: entity
+  name: Urist McPaws
+  parent: MobHumanDummy
+  id: MobFelinidDummy
+  noSpawn: true
+  description: A dummy felinid meant to be used in character setup.
+  components:
+    - type: HumanoidAppearance
+      species: Felinid

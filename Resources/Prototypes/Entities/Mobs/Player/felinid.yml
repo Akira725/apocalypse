@@ -1,0 +1,55 @@
+- type: entity
+  save: false
+  name: Urist McPaws
+  parent: [BaseMobFelinid, BaseMob]
+  id: MobFelinid
+
+#Syndie
+- type: entity
+  parent: MobFelinid
+  id: MobFelinidSyndicateAgent
+  name: Syndicate Agent
+  components:
+    - type: Loadout
+      prototypes: [SyndicateOperativeGearExtremelyBasic]
+    - type: RandomMetadata
+      nameSegments: [names_death_commando]
+    - type: NpcFactionMember
+      factions:
+      - Syndicate
+
+- type: entity
+  parent: MobFelinidSyndicateAgent
+  id: MobFelinidSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
+  suffix: NukeOps
+  components:
+    - type: NukeOperative
+
+# Nuclear Operative
+- type: entity
+  noSpawn: true
+  name: Nuclear Operative
+  parent: MobFelinid
+  id: MobFelinidNukeOp
+  components:
+    - type: NukeOperative
+    - type: RandomHumanoidAppearance
+
+- type: entity
+  noSpawn: true
+  parent: MobFelinid
+  id: MobFelinidLoneNuclearOperative
+  name: Lone Operative
+  components:
+    - type: RandomHumanoidAppearance
+      randomizeName: false
+    - type: NukeOperative
+    - type: Loadout
+      prototypes: [SyndicateOperativeGearFull]
+    - type: RandomMetadata
+      nameSegments:
+      - SyndicateNamesPrefix
+      - SyndicateNamesNormal
+    - type: NpcFactionMember
+      factions:
+      - Syndicate

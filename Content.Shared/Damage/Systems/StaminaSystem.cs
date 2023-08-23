@@ -255,7 +255,7 @@ public sealed partial class StaminaSystem : EntitySystem
 
         var oldStam = component.StaminaDamage;
 
-        if (oldStam + value > component.CritThreshold || component.Critical)
+        if (oldStam + value >= component.CritThreshold || component.Critical)
             return false;
 
         TakeStaminaDamage(uid, value, component, source, with, visual: false);
