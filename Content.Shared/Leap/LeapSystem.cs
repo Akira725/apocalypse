@@ -18,6 +18,7 @@ using Content.Shared.Damage.Systems;
 using Content.Shared.Damage.Components;
 using Content.Shared.IdentityManagement;
 using static Content.Shared.Leap.LeapComponent;
+using Content.Shared.Gravity;
 
 namespace Content.Shared.Leap;
 
@@ -31,6 +32,7 @@ public sealed class LeapSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly StaminaSystem _staminaSystem = default!;
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
+    [Dependency] private readonly SharedGravitySystem _gravity = default!;
 
     private const int LeapingCollisionGroup = (int) (CollisionGroup.TableLayer | CollisionGroup.LowImpassable);
     private const string LeapingFixtureName = "Leaping";
@@ -87,12 +89,11 @@ public sealed class LeapSystem : EntitySystem
         if (leapComp.Jumping == true)
             return false;
 
-        //if (Resolve(uid, ref climbingComp))
-        //{
-        //    if ( climbingComp.IsClimbing == true )
-        //        return false;
-        //    climbingComp.IsClimbing = true;
-        //}
+        if (leapComp.RequiresGravity && _gravity.IsWeightless(uid))
+            return false;
+
+        if (leapComp.RequiresGrounded && !CheckGrounded(uid))
+            return false;
 
         if (!_staminaSystem.TryTakeStamina(uid, leapComp.StaminaCost))
         {
@@ -148,6 +149,17 @@ public sealed class LeapSystem : EntitySystem
         _doAfterSystem.TryStartDoAfter(doAfterArgs);
 
         return true;
+    }
+
+    private bool CheckGrounded(EntityUid uid, TransformComponent? xform = null)
+    {
+        if (!Resolve(uid, ref xform))
+            return false;
+
+        if (xform.GridUid != null)
+            return true;
+
+        return false;
     }
 
     private void FinishLeap(EntityUid uid, LeapComponent leapComp, LeapFinishEvent args)
