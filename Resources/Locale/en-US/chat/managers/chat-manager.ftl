@@ -63,6 +63,8 @@ chat-speech-verb-insect-2 = flutters
 
 chat-speech-verb-slime = chirps
 
+chat-speech-verb-felinid = mews
+
 chat-speech-verb-robotic = states
 chat-speech-verb-reptilian = hisses
 

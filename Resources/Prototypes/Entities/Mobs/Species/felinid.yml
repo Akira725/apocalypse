@@ -60,6 +60,7 @@
   - type: Perishable
   - type: Speech
     speechSounds: Felinid
+    speechVerb: Felinid
   - type: Leap
     duration: 0.5
   - type: Butcherable

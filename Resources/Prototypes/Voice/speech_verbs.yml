@@ -47,6 +47,11 @@
   - chat-speech-verb-slime
 
 - type: speechVerb
+  id: Felinid
+  speechVerbStrings:
+  - chat-speech-verb-felinid
+
+- type: speechVerb
   id: LargeMob
   speechVerbStrings:
   - chat-speech-verb-large-mob
