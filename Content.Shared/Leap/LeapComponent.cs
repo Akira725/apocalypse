@@ -22,6 +22,7 @@ namespace Content.Shared.Leap
         [DataField("duration")]
         public float Duration = 1f;
 
+        // Speed entity is set to during leap
         [DataField("speed")]
         public float Speed = 5f;
 
@@ -36,9 +37,6 @@ namespace Content.Shared.Leap
 
         [ViewVariables]
         public bool CheckColliding = false;
-
-        [ViewVariables]
-        public TimeSpan CompleteTime = TimeSpan.FromSeconds(0);
 
         public sealed partial class LeapForwardEvent : InstantActionEvent { }
     }
