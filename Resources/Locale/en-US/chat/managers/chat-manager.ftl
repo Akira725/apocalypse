@@ -74,6 +74,8 @@ chat-speech-verb-slime-1 = sloshes
 chat-speech-verb-slime-2 = burbles
 chat-speech-verb-slime-3 = oozes
 
+chat-speech-verb-felinid = mews
+
 chat-speech-verb-plant-1 = rustles
 chat-speech-verb-plant-2 = sways
 chat-speech-verb-plant-3 = creaks
