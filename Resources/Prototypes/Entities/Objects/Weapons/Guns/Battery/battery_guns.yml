@@ -458,7 +458,7 @@
       path: /Audio/Weapons/Guns/Gunshots/taser2.ogg
   - type: ProjectileBatteryAmmoProvider
     proto: AnomalousParticleDeltaStrong
-    fireCost: 100 
+    fireCost: 100
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: AnomalousParticleDeltaStrong
@@ -470,13 +470,13 @@
   - type: Construction
     graph: UpgradeWeaponPistolCHIMP
     node: start
-      
+
 - type: entity
   name: experimental C.H.I.M.P. handcannon
   parent: WeaponPistolCHIMP
   id: WeaponPistolCHIMPUpgraded
   description: This C.H.I.M.P. seems to have a greater punch than is usual...
-  components: 
+  components:
   - type: BatteryWeaponFireModes
     fireModes:
     - proto: AnomalousParticleDeltaStrong
@@ -484,7 +484,7 @@
     - proto: AnomalousParticleEpsilonStrong
       fireCost: 100
     - proto: AnomalousParticleOmegaStrong
-      fireCost: 100     
+      fireCost: 100
     - proto: AnomalousParticleZetaStrong
       fireCost: 100
 
@@ -528,19 +528,54 @@
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-1
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/godgun.rsi
   - type: Gun
-    fireRate: 1.25
+    fireRate: 1.35
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/godgun.ogg
   - type: HitscanBatteryAmmoProvider
     proto: HolyLaser
-    fireCost: 50
+    fireCost: 75
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2
   - type: MagazineVisuals
     magState: mag
-    steps: 5
+    steps: 2
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
     price: 300
+
+- type: entity
+  name: 2nd Testamendment
+  parent: BaseWeaponBatterySmall
+  id: WeaponHolyGodGun
+  description: 9mm kills the body, but 45 ACP kills the soul.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/holygodgun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/holygodgun.rsi
+  - type: Gun
+    fireRate: 1.00
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/gibgodgun.ogg
+  - type: HitscanBatteryAmmoProvider
+    proto: GibHolyLaser
+    fireCost: 1
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 999
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: true
+  - type: Appearance
