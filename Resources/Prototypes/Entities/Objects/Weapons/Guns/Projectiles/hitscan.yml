@@ -146,7 +146,6 @@
       Piercing: 999
       Blunt: 999
       Caustic: 999
-  ignoreResistances: true
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_holy
