@@ -769,9 +769,9 @@
   description: A grand, stylish Commander cap.
   components:
   - type: Sprite
-    sprite: Clothing\Head\Hats\capcentcom.rsi
+    sprite: Clothing/Head/Hats/capcentcom.rsi
   - type: Clothing
-    sprite: Clothing\Head\Hats\capcentcom.rsi
+    sprite: Clothing/Head/Hats/capcentcom.rsi
   - type: Tag
     tags:
     - ClothMade
