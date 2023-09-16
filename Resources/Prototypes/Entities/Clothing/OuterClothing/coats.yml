@@ -366,13 +366,13 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterRDWinterJacket
-  name: RD's Winter Jacket
+  name: RD's Winter Lab Coat
   description: Rise... and shine.. Doctor. Freeman. Rise and shine
   components:
   - type: Sprite
-    sprite: Clothing\OuterClothing\WinterCoats\rdwinterjacket.rsi
+    sprite: Clothing\OuterClothing\WinterCoats\rdlabcoat.rsi
   - type: Clothing
-    sprite: Clothing\OuterClothing\WinterCoats\rdwinterjacket.rsi
+    sprite: Clothing\OuterClothing\WinterCoats\rdlabcoat.rsi
   - type: Armor
     modifiers:
       coefficients:
