@@ -350,9 +350,9 @@
   description: A sturdy, utilitarian jacket designed to protect CC when out and about
   components:
   - type: Sprite
-    sprite: Clothing\OuterClothing\WinterCoats\centcoms-armoured-wintercoat.rsi
+    sprite: Clothing\OuterClothing\WinterCoats\coatarmorcentcom.rsi
   - type: Clothing
-    sprite: Clothing\OuterClothing\WinterCoats\centcoms-armoured-wintercoat.rsi
+    sprite: Clothing\OuterClothing\WinterCoats\coatarmorcentcom.rsi
   - type: Armor
     modifiers:
       coefficients:
