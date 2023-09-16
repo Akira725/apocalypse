@@ -761,3 +761,18 @@
     - ClothMade
     - WhitelistChameleon
     - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCentcap
+  name: Centcom Commander Cap
+  description: A grand, stylish Commander cap.
+  components:
+  - type: Sprite
+    sprite: Clothing\Head\Hats\centcomcap.rsi
+  - type: Clothing
+    sprite: Clothing\Head\Hats\centcomcap.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

@@ -342,3 +342,40 @@
     modifiers:
       coefficients:
         Caustic: 0.75
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCentcomJacket
+  name: Centcom's Winter Jacket
+  description: A sturdy, utilitarian jacket designed to protect CC when out and about
+  components:
+  - type: Sprite
+    sprite: Clothing\OuterClothing\WinterCoats\centcoms-armoured-wintercoat.rsi
+  - type: Clothing
+    sprite: Clothing\OuterClothing\WinterCoats\centcoms-armoured-wintercoat.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.70
+        Slash: 0.70
+        Piercing: 0.70
+        Heat: 0.70
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterRDWinterJacket
+  name: RD's Winter Jacket
+  description: Rise... and shine.. Doctor. Freeman. Rise and shine
+  components:
+  - type: Sprite
+    sprite: Clothing\OuterClothing\WinterCoats\rdwinterjacket.rsi
+  - type: Clothing
+    sprite: Clothing\OuterClothing\WinterCoats\rdwinterjacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Caustic: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.90
