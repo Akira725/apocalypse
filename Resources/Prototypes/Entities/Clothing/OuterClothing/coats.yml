@@ -400,3 +400,25 @@
         Caustic: 0.75 #not the full 90% from ss13 because of the head
   - type: ExplosionResistance
     damageCoefficient: 0.90
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ClothingOuterArmorHopJacket
+  name: "Head Of Personnel Coat"
+  description: "An armored Coat that provides protection whilst still offering maximum mobility and flexibility. Issued only to the stations second best."
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/bomber.rsi/coatjacket.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/bomber.rsi/coatjacket.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine

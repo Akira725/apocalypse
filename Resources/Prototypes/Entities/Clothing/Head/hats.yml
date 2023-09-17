@@ -776,3 +776,18 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHopCapAlt
+  name: Head of Personnel's CEO Cap
+  description: the man was nonstop.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/hopcap_alt.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/hopcap_alt.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

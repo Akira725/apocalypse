@@ -1248,3 +1248,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitHopAlt
+  name: Head Of Personnel's Formal Jumpsuit
+  description: How to account for his rise to the top?
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/hop_alt.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/hop_alt.rsi

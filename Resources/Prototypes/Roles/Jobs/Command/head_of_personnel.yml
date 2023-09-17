@@ -51,10 +51,11 @@
 - type: startingGear
   id: HoPGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitHoP
+    jumpsuit: ClothingUniformJumpsuitHopAlt
     back: ClothingBackpackHOPFilled
-    shoes: ClothingShoesColorBrown
-    head: ClothingHeadHatHopcap
+    shoes: ClothingShoesLeather
+    head: ClothingHeadHopCapAlt
+    outerClothing: ClothingOuterArmorHopJacket
     id: HoPPDA
     ears: ClothingHeadsetAltCommand
   innerclothingskirt: ClothingUniformJumpskirtHoP

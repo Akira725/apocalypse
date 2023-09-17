@@ -770,3 +770,14 @@
     sprite: Clothing/Uniforms/Jumpskirt/security_grey.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpskirt/security_grey.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtHopAlt
+  name: Head Of Personnel's Formal Jumpskirt
+  description: How to account for her rise to the top?
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/hop_alt.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/hop_alt.rsi
