@@ -14,7 +14,7 @@
       department: Security
       time: 108000 # 30 hrs
     - !type:OverallPlaytimeRequirement
-      time: 144000 #40 hrs            
+      time: 144000 #40 hrs
   weight: 10
   startingGear: HoSGear
   icon: "JobIconHeadOfSecurity"
@@ -38,9 +38,9 @@
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingBackpackHOSFilled
     shoes: ClothingShoesBootsCombatFilled
-    outerClothing: ClothingOuterCoatHoSTrench
-    eyes: ClothingEyesGlassesSecurity
-    head: ClothingHeadHatBeretHoS
+    outerClothing: ClothingOuterCoatHosjacket
+    eyes: ClothingEyesSolidEye
+    head: ClothingHeadHatSyndieMAA
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity

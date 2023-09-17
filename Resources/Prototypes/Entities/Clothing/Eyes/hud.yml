@@ -122,3 +122,17 @@
   - type: Clothing
     sprite: Clothing/Eyes/Hud/omni.rsi
   - type: ShowSecurityIcons
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesSolidEye
+  name: security hudpatch
+  description: Kept you waiting huh?.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Misc/hudpatch.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Misc/hudpatch.rsi
+  - type: ShowSecurityIcons
+  - type: FlashImmunity
+  - type: EyeProtection
