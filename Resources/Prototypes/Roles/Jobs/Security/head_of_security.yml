@@ -38,9 +38,9 @@
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingBackpackHOSFilled
     shoes: ClothingShoesBootsCombatFilled
-    outerClothing: ClothingOuterCoatHosjacket
-    eyes: ClothingEyesSolidEye
-    head: ClothingHeadHatSyndieMAA
+    outerClothing: ClothingOuterCoatHoSTrench
+    eyes: ClothingEyesGlassesSecurity
+    head: ClothingHeadHatBeretHoS
     id: HoSPDA
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity

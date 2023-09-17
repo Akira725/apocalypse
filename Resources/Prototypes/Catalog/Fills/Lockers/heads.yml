@@ -98,6 +98,10 @@
     contents:
       - id: ClothingNeckCloakHop
       - id: ClothingHeadHatHopcap
+      - id: ClothingOuterArmorHopJacket
+      - id: ClothingUniformJumpskirtHopAlt
+      - id: ClothingUniformJumpsuitHopAlt
+      - id: ClothingHeadHopCapAlt
       - id: HoPIDCard
       - id: ClothingHeadsetCommand
       - id: BoxPDA
@@ -281,8 +285,10 @@
       - id: DoorRemoteSecurity
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
+      - id: ClothingEyesSolidEye
       - id: RubberStampHos
       - id: SecurityTechFabCircuitboard
+      - id: ClothingOuterCoatHosjacket
       - id: JetpackSecurityFilled
       - id: BoxEncryptionKeySecurity
       - id: HoloprojectorSecurity
@@ -298,6 +304,7 @@
       - id: ClothingEyesHudSecurity
       - id: WeaponDisabler
       - id: ClothingHeadHatBeretHoS
+      - id: ClothingOuterCoatHosjacket
       - id: ClothingHeadHatHoshat
       - id: ClothingNeckCloakHos
       - id: ClothingOuterCoatHoSTrench
@@ -310,6 +317,7 @@
       - id: CigarGoldCase
         prob: 0.50
       - id: DoorRemoteSecurity
+      - id: ClothingEyesSolidEye
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
       - id: RubberStampHos
