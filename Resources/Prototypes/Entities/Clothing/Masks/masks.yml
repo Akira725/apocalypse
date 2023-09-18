@@ -491,3 +491,54 @@
   - type: AddAccentClothing
     accent: ReplacementAccent
     replacement: italian
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskDallas
+  name: the patriot
+  description: Put your game face on, buddies.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/patriot.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/patriot.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskChains
+  name: cuffs
+  description: Walk through the valley, shadow of death, et cetera, et cetera...
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/cuffs.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/cuffs.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskWolf
+  name: cannine
+  description: Alright, let's get rich.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/cannine.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/cannine.rsi
+  - type: BreathMask
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - WhitelistChameleon
