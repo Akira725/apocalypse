@@ -791,3 +791,18 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadWardenPolice
+  name: Warden's Police Hat
+  description: the man was nonstop.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/police_warden.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/police_warden.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
