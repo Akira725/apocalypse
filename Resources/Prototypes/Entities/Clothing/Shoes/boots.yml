@@ -94,6 +94,6 @@
   description: A pair of fine leather work boots 
   components:
   - type: Sprite
-    sprite: Clothing\Shoes\Boots\cowboyboot.rsi
+    sprite: Clothing/Shoes/Boots/cowboyboot.rsi
   - type: Clothing
-    sprite: Clothing\Shoes\Boots\cowboyboot.rsi
+    sprite: Clothing/Shoes/Boots/cowboyboot.rsi
