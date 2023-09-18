@@ -53,7 +53,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitHopAlt
     back: ClothingBackpackHOPFilled
-    shoes: ClothingHeadHopCapAlt
+    shoes: ClothingShoesLeather
     head: ClothingHeadHopCapAlt
     outerClothing: ClothingOuterArmorHopJacket
     id: HoPPDA

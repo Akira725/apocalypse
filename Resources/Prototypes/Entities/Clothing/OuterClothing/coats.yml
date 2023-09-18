@@ -412,9 +412,9 @@
   description: "An armored Coat that provides protection whilst still offering maximum mobility and flexibility. Issued only to the stations second best."
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/bomber.rsi/coatjacket.rsi
+    sprite: Clothing/OuterClothing/Coats/coatjacket.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/bomber.rsi/coatjacket.rsi
+    sprite: Clothing/OuterClothing/Coats/coatjacket.rsi
   - type: Armor
     modifiers:
       coefficients:
