@@ -776,3 +776,17 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCowboy
+  name: Cowboy Hat
+  description: True cowboys are the ones who aren’t afraid to get dirty.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/cowboyhat.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/cowboyhat.rsi
+  - type: Tag
+    tags:
+    - WhitelistChameleon
