@@ -1259,3 +1259,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/hop_alt.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/hop_alt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitWardenPoliceBlue
+  name: Wardens's Police Cheif Uniform
+  description: How to account for his rise to the top?
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/warden_blue.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/warden_blue.rsi

@@ -23,6 +23,9 @@
       - id: ClothingOuterHardsuitWarden
       - id: HoloprojectorSecurity
       - id: ClothingEyesHudSecurity
+      - id: ClothingUniformJumpsuitWardenPoliceBlue
+      - id: ClothingOuterCoatBlueWarden
+      - id: ClothingHeadWardenPolice
 
 - type: entity
   id: LockerWardenFilled
@@ -48,6 +51,10 @@
       - id: DoorRemoteArmory
       - id: HoloprojectorSecurity
       - id: ClothingEyesHudSecurity
+      - id: ClothingUniformJumpsuitWardenPoliceBlue
+      - id: ClothingOuterCoatBlueWarden
+      - id: ClothingHeadWardenPolice
+
 
 - type: entity
   id: LockerSecurityFilled
