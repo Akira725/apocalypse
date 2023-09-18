@@ -230,6 +230,7 @@
       - id: ClothingHeadsetMedicalScience
       - id: ClothingOuterHardsuitRd
       - id: HandTeleporter
+      - id: ClothingOuterRDWinterJacket
       - id: DoorRemoteResearch
       - id: ClothingHeadHatBeretRND
       - id: ClothingHandsGlovesColorPurple
@@ -252,6 +253,7 @@
       - id: ClothingHeadsetMedicalScience
       - id: HandTeleporter
       - id: DoorRemoteResearch
+      - id: ClothingOuterRDWinterJacket
       - id: ClothingHeadHatBeretRND
       - id: ClothingHandsGlovesColorPurple
       - id: ClothingBeltUtilityFilled
