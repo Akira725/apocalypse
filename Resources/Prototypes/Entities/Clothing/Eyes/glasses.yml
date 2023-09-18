@@ -182,9 +182,9 @@
   description: A compact version of the welding mask.
   components:
   - type: Sprite
-    sprite: Clothing\Eyes\Glasses\weldinggoggles.rsi
+    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
   - type: Clothing
-    sprite: Clothing\Eyes\Glasses\weldinggoggles.rsi
+    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
   - type: FlashImmunity
   - type: EyeProtection
   - type: Tag
