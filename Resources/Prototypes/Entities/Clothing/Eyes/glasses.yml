@@ -179,12 +179,14 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesWelding
   name: welding goggles
-  description: A more compact version fo the welding mask.
+  description: A compact version of the welding mask.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
+    sprite: Clothing\Eyes\Glasses\weldinggoggles.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
+    sprite: Clothing\Eyes\Glasses\weldinggoggles.rsi
   - type: FlashImmunity
   - type: EyeProtection
-   protectionTime: 5
+  - type: Tag
+    tags:
+    - WhitelistChameleon
