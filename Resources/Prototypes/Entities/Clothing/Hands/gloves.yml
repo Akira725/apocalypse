@@ -372,3 +372,19 @@
   - type: GuideHelp
     guides:
     - DNA
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesEngioneHand
+  name: engi glove
+  description: 
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/engigloves.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/engigloves.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-yellow
+  - type: FingerprintMask

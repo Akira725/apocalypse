@@ -144,6 +144,11 @@
       - id: ClothingHeadsetAltEngineering
       - id: BoxEncryptionKeyEngineering
       - id: AccessConfigurator
+      - id: ClothingUniformJumpsuitEngiRed
+      - id: ClothingHandsGlovesEngioneHand
+      - id: ClothingEyesGlassesWelding
+      - id: ClothingShoesBootsWork
+      - id: ClothingHeadHatHardhatOrange
 
 - type: entity
   id: LockerChiefEngineerFilled
@@ -164,6 +169,11 @@
       - id: ClothingHeadsetAltEngineering
       - id: BoxEncryptionKeyEngineering
       - id: AccessConfigurator
+      - id: ClothingUniformJumpsuitEngiRed
+      - id: ClothingHandsGlovesEngioneHand
+      - id: ClothingEyesGlassesWelding
+      - id: ClothingShoesBootsWork
+      - id: ClothingHeadHatHardhatOrange
 
 - type: entity
   id: LockerChiefMedicalOfficerFilledHardsuit

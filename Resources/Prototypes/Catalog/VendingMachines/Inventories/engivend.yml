@@ -3,6 +3,7 @@
   startingInventory:
     ClothingEyesGlassesMeson: 4
     ClothingHeadHatWelding: 6
+    ClothingEyesGlassesWelding: 4
     Multitool: 4
     NetworkConfigurator: 5
     PowerCellMedium: 5

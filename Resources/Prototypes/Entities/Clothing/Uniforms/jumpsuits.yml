@@ -1259,3 +1259,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/cowboy.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/cowboy.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitEngiRed
+  name: engi jumpsuit red
+  description: You're all about to have a real bad day!
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ENGIRED.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ENGIRED.rsi

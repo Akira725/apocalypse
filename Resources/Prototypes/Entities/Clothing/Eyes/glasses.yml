@@ -174,3 +174,17 @@
     - type: Clothing
       sprite: Clothing/Eyes/Glasses/science.rsi
     - type: SolutionScanner
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesWelding
+  name: welding goggles
+  description: A more compact version fo the welding mask.
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/weldinggoggles.rsi
+  - type: EyeProtection
+  - type: FlashImmunity
+  protectionTime: 5
