@@ -384,7 +384,7 @@
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/krav-mega.rsi
   - type: StaminaDamageOnHit
-    damage: 30
+    damage: 15
   - type: MeleeWeapon
     attackRate: 3
     damage:

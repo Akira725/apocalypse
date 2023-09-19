@@ -26,6 +26,7 @@
       - id: ClothingUniformJumpsuitWardenPoliceBlue
       - id: ClothingOuterCoatBlueWarden
       - id: ClothingHeadWardenPolice
+      - id: ClothingHandsGlovesKravMega
 
 - type: entity
   id: LockerWardenFilled
@@ -54,6 +55,7 @@
       - id: ClothingUniformJumpsuitWardenPoliceBlue
       - id: ClothingOuterCoatBlueWarden
       - id: ClothingHeadWardenPolice
+      - id: ClothingHandsGlovesKravMega
 
 
 - type: entity
