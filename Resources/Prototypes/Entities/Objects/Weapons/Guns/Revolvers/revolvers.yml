@@ -164,14 +164,5 @@
     sprite: Objects/Weapons/Guns/Revolvers/lucky.rsi
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/lucky.rsi
-  - type: RevolverAmmoProvider
   - type: Gun
     fireRate: 3
-    whitelist:
-      tags:
-        - CartridgeMagnum
-        - SpeedLoaderMagnum
-    proto: CartridgeMagnum
-    capacity: 6
-    chambers: [ True, True, True, True, True, True ]
-    ammoSlots: [ null, null, null, null, null, null ]
