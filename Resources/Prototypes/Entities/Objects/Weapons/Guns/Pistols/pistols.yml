@@ -193,7 +193,7 @@
   name: m1911
   parent: BaseWeaponPistol
   id: WeaponPistol45
-  description: m1911 the all amercian classic still in use by fringe space groups to this day the only noticble change is this one is chamber in .45 magnum.
+  description: m1911 the all amercian classic still in use by fringe space groups to this day the only noticble change is this one is chambered in .45 magnum.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/m1911
