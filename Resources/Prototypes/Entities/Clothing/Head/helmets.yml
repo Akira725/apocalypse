@@ -336,21 +336,3 @@
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHelmetBlueshiftHelm
-  name: Blueshift Secruity Helment
-  description: Hey, you've got the wrong airlock, Mr. Freeman. You know I can't let you through here
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Helmets/blueshift.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Helmets/blueshift.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.90
-        Slash: 0.90
-        Piercing: 0.90
-        Heat: .90
