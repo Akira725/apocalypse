@@ -679,6 +679,9 @@
   id: MagazinePistolSubMachineGunTopMounted
 
 - type: Tag
+  id: BaseMagazinePistol45
+
+- type: Tag
   id: MagazineRifle
 
 - type: Tag

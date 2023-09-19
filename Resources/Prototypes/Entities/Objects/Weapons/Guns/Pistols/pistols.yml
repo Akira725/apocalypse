@@ -188,3 +188,43 @@
         whitelist:
           tags:
             - CartridgePistol
+
+- type: entity
+  name: m1911
+  parent: BaseWeaponPistol
+  id: WeaponPistol45
+  description: m1911 the all amercian classic still in use by fringe space groups to this day the only noticble change is this one is chamber in .45 magnum.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/m1911
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+  - type: Gun
+    fireRate: 5
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistol45
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - BaseMagazinePistol45
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeMagnum
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeMagnum
