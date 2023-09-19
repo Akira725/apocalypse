@@ -1271,24 +1271,3 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/warden_blue.rsi
 
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitCombatSyndicate
-  name: Syndicate Combat Jumpsuit
-  description: What's the plan, operatives?
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/combat-syndicate.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/combat-syndicate.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: ClothingUniformJumpsuitCombatMarinesNanotrasen
-  name: NTM Combat Jumpsuit
-  description: Here we go again. - Commander REDACTED, 1st Elite Response Team. Sector 5S-13
-  components:
-  - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/combat-marines.rsi
-  - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/combat-marines.rsi

@@ -94,7 +94,7 @@
 - type: startingGear
   id: SyndicateOperativeGearFull
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCombatSyndicate
+    jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicateOperative
     mask: ClothingMaskGasSyndicate
   # eyes: Night Vision Goggles whenever they're made
@@ -107,6 +107,7 @@
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbing
+  innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
@@ -114,7 +115,7 @@
 - type: startingGear
   id: SyndicateCommanderGearFull
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCombatSyndicate
+    jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicateOperative
     mask: ClothingMaskGasSyndicate
   # eyes: Night Vision Goggles whenever they're made
@@ -129,6 +130,7 @@
     belt: ClothingBeltMilitaryWebbing
   inhand:
     right hand: NukeOpsDeclarationOfWar
+  innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperative
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
@@ -136,7 +138,7 @@
 - type: startingGear
   id: SyndicateOperativeMedicFull
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCombatSyndicate
+    jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicateOperativeMedic
     mask: ClothingMaskGasSyndicate
     eyes: ClothingEyesHudMedical
@@ -148,6 +150,7 @@
     pocket1: DoubleEmergencyOxygenTankFilled
     pocket2: BaseUplinkRadio40TC
     belt: ClothingBeltMilitaryWebbingMedFilled
+  innerclothingskirt: ClothingUniformJumpskirtOperative
   satchel: ClothingBackpackDuffelSyndicateOperativeMedic
   duffelbag: ClothingBackpackDuffelSyndicateOperativeMedic
 
