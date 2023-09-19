@@ -153,3 +153,25 @@
     capacity: 5
     chambers: [ True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null ]
+
+- type: entity
+  name: Lucky
+  parent: BaseWeaponRevolver
+  id: WeaponRevolverLucky
+  description: And the notches on his pistol numbered one and 19 more Uses.45 magnum ammo.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Revolvers/lucky.rsi
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Revolvers/lucky.rsi
+  - type: RevolverAmmoProvider
+  - type: Gun
+    fireRate: 3
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnum
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
