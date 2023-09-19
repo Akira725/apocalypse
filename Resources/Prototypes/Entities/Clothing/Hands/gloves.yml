@@ -372,3 +372,40 @@
   - type: GuideHelp
     guides:
     - DNA
+
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesKravMega
+  name: Wardens's krav mega gloves
+  description: Gloves that tighten to the users hands to allow them disarm and disable anyone who crosses their path - the word WARD is written on the inside.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/Color/krav-mega.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/Color/krav-mega.rsi
+  - type: StaminaDamageOnHit
+    damage: 30
+  - type: MeleeWeapon
+    attackRate: 3
+    damage:
+      types:
+       Blunt: 2
+    soundHit:
+      collection: Punch
+    animation: WeaponArcFist
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-red
+  - type: FingerprintMask
+  - type: MeleeSpeech
+  - type: ActivatableUI
+    key: enum.MeleeSpeechUiKey.Key
+    closeOnHandDeselect: false
+    rightClickOnly: true
+  - type: Actions
+  - type: UserInterface
+    interfaces:
+      - key: enum.MeleeSpeechUiKey.Key
+        type: MeleeSpeechBoundUserInterface
+  - type: StaticPrice
+    price: 0
