@@ -1,7 +1,7 @@
 - type: startingGear
   id: SyndicateCrewLoadout
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCombatSyndicate
+    jumpsuit: ClothingUniformJumpsuitOperative
     shoes: ClothingShoesBootsCombatFilled
     gloves: ClothingHandsGlovesColorBlack
     id: SyndiPDA
