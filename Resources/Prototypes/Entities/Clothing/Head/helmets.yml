@@ -336,3 +336,87 @@
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetNanotrasenMarinesCommandHelm
+  name: NTM Commander Helment
+  description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/marine_command.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/marine_command.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.95
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetNanotrasenMarinesMedicHelm
+  name: NTM Medic Helment
+  description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/marine_medic.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/marine_medic.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.95
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetNanotrasenMarinesSecHelm
+  name: NTM Secruity Helment
+  description: An extremely robust helmet, commonly used by paramilitary forces. This one has the Nanotrasen logo emblazoned on the top.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/marine_sec.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/marine_sec.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.80
+        Slash: 0.80
+        Piercing: 0.80
+        Heat: 0.80
+        Radiation: 0.80
+        Caustic: 0.95
+  - type: ExplosionResistance
+    damageCoefficient: 0.75
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBlueshiftHelm
+  name: Blueshift Secruity Helment
+  description: Hey, you've got the wrong airlock, Mr. Freeman. You know I can't let you through here
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/blueshift.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/blueshift.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.90
+        Piercing: 0.90
+        Heat: .90
