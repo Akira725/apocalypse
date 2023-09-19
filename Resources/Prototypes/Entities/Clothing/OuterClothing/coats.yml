@@ -406,7 +406,7 @@
     damageCoefficient: 0.90
 
 - type: entity
-  parent: ClothingOuterBaseLarge
+  parent: ClothingOuterStorageBase
   id: ClothingOuterArmorHopJacket
   name: "Head Of Personnel Armored Coat"
   description: "An armored Coat that provides protection whilst still offering maximum mobility and flexibility. Issued only to the stations second best."
