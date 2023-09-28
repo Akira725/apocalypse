@@ -1,4 +1,4 @@
 {
     "omnisharp.analyzeOpenDocumentsOnly": true,
-    "dotnet.defaultSolution": "disable"
+    "dotnet.defaultSolution": "SpaceStation14.sln"
 }
