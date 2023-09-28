@@ -238,6 +238,7 @@
       - id: RubberStampRd
       - id: ClothingHeadsetAltScience
       - id: BoxEncryptionKeyScience
+      - id: ClothingOuterRDWinterJacket
 
 - type: entity
   id: LockerResearchDirectorFilled
@@ -259,6 +260,7 @@
       - id: RubberStampRd
       - id: ClothingHeadsetAltScience
       - id: BoxEncryptionKeyScience
+      - id: ClothingOuterRDWinterJacket
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
