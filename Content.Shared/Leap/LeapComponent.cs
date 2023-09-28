@@ -1,7 +1,7 @@
 using System;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
@@ -11,12 +11,11 @@ namespace Content.Shared.Leap
     public sealed partial class LeapComponent : Component
     {
         // Sidebar action string
-        [DataField("leapForwardAction", customTypeSerializer: typeof(PrototypeIdSerializer<InstantActionPrototype>))]
-        public string LeapForwardAction = "LeapForward";
+        [DataField("action", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
+        public string Action = "ActionLeapForward";
 
         // Actual action
-        [DataField("storedAction")]
-        public InstantAction? StoredAction;
+        [DataField("actionEntity")] public EntityUid? ActionEntity;
 
         // How long the leap lasts
         [DataField("duration")]

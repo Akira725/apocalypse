@@ -1,7 +1,6 @@
 using Content.Shared.DoAfter;
 using Content.Shared.Popups;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Robust.Shared.Prototypes;
 using Content.Shared.Physics;
 using Robust.Shared.Physics.Systems;
@@ -54,15 +53,15 @@ public sealed class LeapSystem : EntitySystem
 
     private void OnComponentInit(EntityUid uid, LeapComponent component, ComponentInit args)
     {
-        component.StoredAction = new(_prototype.Index<InstantActionPrototype>(component.LeapForwardAction));
+        //component.StoredAction = new(_prototype.Index<EntityPrototype>(component.LeapForwardAction));
 
-        _actions.AddAction(uid, component.StoredAction, null);
+        _actions.AddAction(uid, ref component.ActionEntity, component.Action, uid);
     }
 
     private void OnComponentShutdown(EntityUid uid, LeapComponent component, ComponentShutdown args)
     {
-        if (component.StoredAction != null)
-            _actions.RemoveAction(uid, component.StoredAction);
+        if (component.ActionEntity != null)
+            _actions.RemoveAction(uid, component.ActionEntity);
     }
 
     private void HandleLeap(EntityUid uid, LeapComponent component, LeapForwardEvent args)
@@ -138,7 +137,7 @@ public sealed class LeapSystem : EntitySystem
         leapComp.Jumping = true;
         leapComp.CheckColliding = false;
 
-        var doAfterArgs = new DoAfterArgs(uid, leapComp.Duration, new LeapFinishEvent(), uid)
+        var doAfterArgs = new DoAfterArgs(EntityManager, uid, leapComp.Duration, new LeapFinishEvent(), uid)
         {
             BreakOnUserMove = false,
             BlockDuplicate = true,
